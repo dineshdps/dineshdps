@@ -162,7 +162,7 @@ h3
 
 .campany-name
 {
-    margin-top: 35px;
+    margin-top: 30px;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -172,12 +172,12 @@ h3
     width: 60px;
     background-color: rgb(85, 145, 224);
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .copyright-background
 {
     background-color: rgb(18, 30, 58);
-    height: 7vh;
+    height: 8vh;
     width: 100%;
 }
 
@@ -206,7 +206,7 @@ h3
    }
    .campany-name-underline
    {
-       margin-bottom: 15px;
+       margin-bottom: 10px;
    }
 }
 
