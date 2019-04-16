@@ -1,0 +1,219 @@
+body{
+    color: white;
+}
+.start
+{
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+.btn-styled-2{
+    border-color:white;
+    color:white;
+    transition:all 0.5s;
+}
+.navbar-style
+{
+    background-color: #24355C;
+}
+.Background-image-overlay
+{
+    background: rgba(0, 0,0, 0.7);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.nav-link
+{
+    color: white;
+    font-size: 17px;
+}
+
+.navbar-brand
+{
+    color: white;
+    font-size: 17px;
+}
+
+.content-style
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    margin-top: 300px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    
+}
+h3
+{
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.heading
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+/* features */
+
+.Feature-heading
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black; 
+}
+.fa-bars
+{
+    color: white;
+}
+.grey-text
+{
+    color: rgba(128, 128, 128, 0.788);
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+.fa-camera-retro
+{
+    color: rgb(85, 145, 224);
+    font-size: 50px;
+}
+
+.fa-heart
+{
+    color: rgb(85, 145, 224);
+    font-size: 50px; 
+}
+.fa-bicycle
+{
+    color: rgb(85, 145, 224);
+    font-size: 50px; 
+}
+.underline
+{
+    height: 1px;
+    width: 1100px;
+    background-color: rgba(211, 211, 211, 0.705);
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.form-control{
+    border-color:rgb(85, 145, 224);
+    border-width:3px;
+    font-size: 18px;
+    background: transparent;
+   
+}
+
+/* contact us */
+
+.form-control:focus{
+    box-shadow:0px 5px 20px rgb(85, 145, 224);
+    border-color: rgb(85, 145, 224);
+}
+.icon-text{
+    color: black;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+
+.form-control::placeholder{color:rgba(1,1,1,0.5)}
+
+.btn-styled{
+    border-radius:100px;
+    background: linear-gradient(to right,rgba(152, 192, 251, 0.575),rgba(7, 15, 129, 0.918));
+    color:white;
+    height:50px;
+    font-size: 18px;
+    box-shadow: 0px 8px 50px rgba(1,1,1,0.35);
+}
+
+
+/* Footer */
+
+.Footer
+{
+    margin-top: 100px;
+    background-color: #24355C;
+    height: 40vh;
+    width: 100%;
+}
+
+.campany-name
+{
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.campany-name-underline
+{
+    height: 2px;
+    width: 60px;
+    background-color: rgb(85, 145, 224);
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.copyright-background
+{
+    background-color: rgb(18, 30, 58);
+    height: 7vh;
+    width: 100%;
+}
+
+.link-style
+{
+    color: white;
+    font-size: 17px;
+}
+
+
+/* media */
+
+@media screen and (max-width:770px)
+{
+   .campany-name
+   {
+       margin-top: 25px;
+   }
+   .grey-text
+   {
+       margin-bottom: 15px;
+   }
+   .Footer
+   {
+       height: 125vh;
+   }
+   .campany-name-underline
+   {
+       margin-bottom: 15px;
+   }
+}
+
+@media screen and (max-width:700px)
+{
+    h3
+    {
+        text-align: center;
+    }
+}
