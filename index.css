@@ -202,7 +202,7 @@ h3
    }
    .Footer
    {
-       height: 125vh;
+       height: 115vh;
    }
    .campany-name-underline
    {
@@ -220,3 +220,10 @@ h3
         text-align: center;
     }
 }
+/* @media screen and (max-width:400px)
+{
+    .Footer
+   {
+       height: 120vh;
+   }
+} */
